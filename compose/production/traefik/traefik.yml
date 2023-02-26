@@ -28,7 +28,7 @@ certificatesResolvers:
 http:
   routers:
     web-secure-router:
-      rule: "Host(`example.com`) || Host(`www.example.com`)"
+      rule: "Host(`ec2-3-134-107-14.us-east-2.compute.amazonaws.com`)"
       entryPoints:
         - web-secure
       middlewares:
