@@ -124,7 +124,6 @@ EMAIL_BACKEND = env(
     "DJANGO_EMAIL_BACKEND",
     default="django.core.mail.backends.smtp.EmailBackend",
 )
-EMAIL_BACKEND = 'django_smtp_ssl.SSLEmailBackend'
 
 EMAIL_HOST = env("EMAIL_HOST", default=None)
 EMAIL_PORT = env("EMAIL_PORT", default=None)
