@@ -131,6 +131,8 @@ EMAIL_HOST_USER = env("EMAIL_HOST_USER", default=None)
 EMAIL_HOST_PASSWORD = env("EMAIL_HOST_PASSWORD", default=None)
 EMAIL_USE_TLS = True
 DEFAULT_FROM_EMAIL = 'elayne.lemos@discente.univasf.edu.br'
+EMAIL_FROM = 'elayne.lemos@discente.univasf.edu.br'
+SERVER_EMAIL = 'elayne.lemos@discente.univasf.edu.br'
 
 # Collectfast
 # ------------------------------------------------------------------------------
